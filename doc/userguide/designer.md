@@ -20,3 +20,13 @@ var config= {
 
 var designer = new seatsbox.Designer(config);
 ```
+
+
+## 设置设计器背景
+设计器的背景通过样式**.seatsbox-canvas**来设置，默认使用网格图片
+```
+.seatsbox-canvas {
+    background-image: url('grid.png');
+}
+```
+![Designer](http://zhoujianhui.bitbucket.org/seatsbox/designer.png)

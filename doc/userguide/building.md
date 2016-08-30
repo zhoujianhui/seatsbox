@@ -12,7 +12,12 @@
 designer.toAisleDrawingState();
 ```
 
-此时鼠标会变为过道形状![AisleCursor](http://zhoujianhui.bitbucket.org/seatsbox/aislecursor.png), 拖拽即可绘制任意大小的过道，如：
+此时鼠标会变为过道形状
+
+![AisleCursor](http://zhoujianhui.bitbucket.org/seatsbox/aislecursor.png)
+
+拖拽即可绘制任意大小的过道，如：
+
 ![Aisle](http://zhoujianhui.bitbucket.org/seatsbox/aisle.png)
 
 
@@ -22,7 +27,12 @@ designer.toAisleDrawingState();
 designer.toElevatorDrawingState();
 ```
 
-此时鼠标会变为电梯形状![ElevatorCursor](http://zhoujianhui.bitbucket.org/seatsbox/elevatorcursor.png), 单击即可绘制固定大小的电梯，如：
+此时鼠标会变为电梯形状
+
+![ElevatorCursor](http://zhoujianhui.bitbucket.org/seatsbox/elevatorcursor.png)
+
+单击即可绘制固定大小的电梯，如：
+
 ![Elevator](http://zhoujianhui.bitbucket.org/seatsbox/elevator.png)
 
 ### 设置电梯的绘制大小
@@ -41,7 +51,13 @@ designer.drawer.setDrawConfig({
     height: 42
 });
 ```
-此时鼠标样式会变为自定义的大小![ElevatorCursorBig](http://zhoujianhui.bitbucket.org/seatsbox/elevatorcursor-big.png)，绘制出来的电梯也相应变为自定义的大小![ElevatorBig](http://zhoujianhui.bitbucket.org/seatsbox/elevator-big.png)。
+此时鼠标样式会变为自定义的大小
+
+![ElevatorCursorBig](http://zhoujianhui.bitbucket.org/seatsbox/elevatorcursor-big.png)
+
+绘制出来的电梯也相应变为自定义的大小
+
+![ElevatorBig](http://zhoujianhui.bitbucket.org/seatsbox/elevator-big.png)
 
 
 ## 安全出口（EmergencyExit）
@@ -50,7 +66,12 @@ designer.drawer.setDrawConfig({
 designer.toEmergencyExitDrawingState();
 ```
 
-此时鼠标会变为安全出口形状![EmergencyExitCursor](http://zhoujianhui.bitbucket.org/seatsbox/emergencyexitcursor.png), 单击即可绘制固定大小的安全出口，如：
+此时鼠标会变为安全出口形状
+
+![EmergencyExitCursor](http://zhoujianhui.bitbucket.org/seatsbox/emergencyexitcursor.png)
+
+单击即可绘制固定大小的安全出口，如：
+
 ![EmergencyExit](http://zhoujianhui.bitbucket.org/seatsbox/emergencyexit.png)
 
 ### 设置安全出口的绘制大小
@@ -67,4 +88,10 @@ designer.drawer.setDrawConfig({
     height: 40
 });
 ```
-此时鼠标样式会变为自定义的大小![EmergencyExitCursorBig](http://zhoujianhui.bitbucket.org/seatsbox/emergencyexitcursor-big.png)，绘制出来的安全出口也相应变为自定义的大小![EmergencyExitBig](http://zhoujianhui.bitbucket.org/seatsbox/emergencyexit-big.png)。
+此时鼠标样式会变为自定义的大小
+
+![EmergencyExitCursorBig](http://zhoujianhui.bitbucket.org/seatsbox/emergencyexitcursor-big.png)
+
+绘制出来的安全出口也相应变为自定义的大小
+
+![EmergencyExitBig](http://zhoujianhui.bitbucket.org/seatsbox/emergencyexit-big.png)
